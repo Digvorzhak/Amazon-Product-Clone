@@ -476,9 +476,18 @@
   margin-top: 5px;
 }
 
-.pictures-container {
+/******************************************** IMAGES ******************************/
+
+.image-container {
   width: 505px;
   height: 502px;
+}
+
+.image {
+  margin-top: 2.5em;
+  width: 460px;
+  height: 430px;
+  background: url(/Assets/images/fullsizeimages/defaultpic_.jpg) no-repeat center center/cover;
 }
 
 /******************************************** INFO ******************************/
