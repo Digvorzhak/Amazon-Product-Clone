@@ -81,7 +81,6 @@
 
 .container {
   width: 99%;
-  background-color: #131921;
   height: 100%;
   margin: auto;
 }
@@ -205,6 +204,7 @@
   height: 50px;
   width: 73px;
   margin-left: 25px;
+  cursor: pointer;
 }
 
 .language-container p {
@@ -230,6 +230,7 @@
   width: 118px;
   height: 50px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .sign-in-container p {
@@ -257,6 +258,7 @@
   width: 77px;
   height: 50px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .order-container p {
@@ -287,6 +289,7 @@
   height: 50px;
   margin-left: 10px;
   position: relative;
+  cursor: pointer;
 }
 
 .cart-logo {
@@ -312,4 +315,315 @@
   position: absolute;
   top: 7px;
   right: 48px;
+}
+
+/**************** MINI NAVBAR ****************/
+
+.mini-navbar {
+  background-color: #232f3e;
+  height: 39px;
+  color: #ffffff;
+}
+
+.container-mini-nav {
+  display: flex;
+  align-items: center;
+  /* width: 99%; */
+}
+
+.container-mini-nav > div > P {
+  font-family: "Amazon Ember";
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+/**************** ALL ****************/
+
+.all-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 58px;
+  cursor: pointer;
+}
+
+.all-container p {
+  font-weight: 700 !important;
+}
+
+/**************** TODAYS DEALS ****************/
+
+.deals-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 109px;
+  cursor: pointer;
+}
+
+/**************** CUSTOMER SERVICE ****************/
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 134px;
+  cursor: pointer;
+}
+
+/**************** GIFT CARDS ****************/
+
+.gift-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 87px;
+  cursor: pointer;
+}
+
+/**************** REGISTRY ****************/
+
+.registry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 76px;
+  cursor: pointer;
+}
+
+/**************** SELL ****************/
+
+.sell-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 47px;
+  cursor: pointer;
+}
+
+/**************** SHOP DEALS IN ELECTRONICS ****************/
+
+.shop-deals-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 180px;
+  margin-left: 1170px;
+  cursor: pointer;
+}
+
+.shop-deals-container p {
+  line-height: 15px !important;
+  font-weight: 700 !important;
+}
+
+/******************************************** MAIN SECTION ******************************/
+
+.showcase {
+  height: 900px;
+  color: #0f1111;
+}
+
+.container-showcase {
+  /* display: flex; */
+  background: #131921;
+  background: #ffffff;
+  width: 77%;
+}
+
+.kindle-paperwhite-container {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+}
+
+.kindle-paperwhite {
+  color: #000000;
+  width: 50%;
+  background: url(/Assets/images/kindle.jpg) no-repeat center;
+}
+
+.back-to-results-container {
+  display: flex;
+  background: #ffffff;
+  width: 100%;
+  height: 14px;
+}
+
+.back-to-results p {
+  color: #565959;
+  font-family: "Amazon Ember";
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.test-container {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.pictures-container {
+  width: 505px;
+  height: 502px;
+}
+
+/******************************************** INFO ******************************/
+
+.info-container {
+  width: 667px;
+  height: 549px;
+}
+
+.info-header {
+  width: 100%;
+}
+
+.info-header h1 {
+  color: #0f1111;
+  font-family: "Amazon Ember";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+
+.info-header a {
+  cursor: pointer;
+  color: #007185;
+  font-family: "Amazon Ember";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.info-header a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.stars-rating-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.stars {
+  background: url(/Assets/images/starsandchecks.png) no-repeat -2px -42px;
+  width: 80px;
+  height: 15px;
+}
+
+.ratings {
+  margin-left: 30px;
+}
+
+.stars-rating-container span {
+  margin-left: 15px;
+}
+
+.questions {
+  margin-left: 15px;
+}
+
+.info-middle {
+  width: 95%;
+  font-family: "Amazon Ember";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.info-middle h1 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info-middle > div {
+  margin-bottom: 5px;
+}
+
+.compatible-container {
+  display: flex;
+  margin-top: 10px;
+  width: 667px;
+  height: 20px;
+}
+.compatible-container .right {
+  margin-left: 55px;
+}
+
+.connector-type-container {
+  display: flex;
+  width: 667px;
+  height: 20px;
+}
+
+.connector-type-container .right {
+  margin-left: 80px;
+}
+
+.connector-gender-container {
+  display: flex;
+  width: 667px;
+  height: 20px;
+}
+
+.connector-gender-container .right {
+  margin-left: 65px;
+}
+
+.color-container {
+  display: flex;
+  width: 667px;
+  height: 20px;
+}
+
+.color-container .right {
+  margin-left: 147px;
+}
+
+.item-dimensions-container {
+  display: flex;
+  width: 667px;
+  height: 20px;
+}
+.item-dimensions-container .right {
+  margin-left: 23px;
+}
+
+.info-bottom {
+  margin-top: 20px;
+  font-family: "Amazon Ember";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.info-bottom h1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.info-bottom ul {
+  margin-left: 17px;
+}
+
+.info-bottom p {
+  margin-top: 20px;
 }
