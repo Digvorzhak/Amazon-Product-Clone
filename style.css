@@ -1048,7 +1048,7 @@
   line-height: 20px;
 }
 
-.product-description a:hover {
+.product-description:hover {
   color: #c7511f;
   text-decoration: underline;
 }
