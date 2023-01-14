@@ -479,8 +479,48 @@
 /******************************************** IMAGES ******************************/
 
 .image-container {
+  display: flex;
   width: 505px;
   height: 502px;
+}
+
+.icon-column-container {
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 40px;
+  height: 300px;
+}
+
+.icon {
+  cursor: pointer;
+  border: 1px solid #a2a6ac;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 7px;
+}
+.icon:hover {
+  border: 1px solid #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.icon-one {
+  background: url(/Assets/images/previewicons/firstlistpic.jpg);
+}
+.icon-two {
+  background: url(/Assets/images/previewicons/secondlistpic.jpg);
+}
+.icon-three {
+  background: url(/Assets/images/previewicons/thirdlistpic.jpg);
+}
+.icon-four {
+  background: url(/Assets/images/previewicons/fourthlistpic.jpg);
+}
+.icon-five {
+  background: url(/Assets/images/previewicons/fifthlistpic.jpg);
+}
+.icon-six {
+  background: url(/Assets/images/previewicons/lastlisticon.jpg);
 }
 
 .image {
@@ -493,12 +533,14 @@
 /******************************************** INFO ******************************/
 
 .info-container {
+  margin-left: 20px;
   width: 667px;
   height: 549px;
 }
 
 .info-header {
   width: 100%;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .info-header h1 {
@@ -553,6 +595,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .info-middle h1 {
@@ -635,4 +678,436 @@
 
 .info-bottom p {
   margin-top: 20px;
+}
+
+/******************************************** SIDE INFO ******************************/
+
+.side-info-container {
+  font-family: "Amazon Ember";
+  font-size: 14px;
+  line-height: 20px;
+  width: 242px;
+  height: 720px;
+  border: 1px #d5d9d9 solid;
+  border-radius: 8px;
+  margin-left: 27px;
+  margin-top: 20px;
+}
+
+.side-info {
+  width: 206px;
+  height: 692px;
+  padding: 14px 18px;
+}
+
+.total-price h1 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.delivery-date {
+  margin-top: 13px;
+}
+
+.small-deliver-container {
+  display: flex;
+  margin-top: 13px;
+}
+
+.deliver-logo-small {
+  min-width: 16px;
+  height: 14px;
+  margin-top: 3px;
+  background: url(/Assets/images/deliveryblack.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.deliver-text a {
+  cursor: pointer;
+  color: #007185;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 5px;
+}
+
+.deliver-text a:hover {
+  color: #c7511f;
+}
+
+.stock-counter h1 {
+  color: #b12704;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.quantity-select {
+  color: #0f1111;
+  border: 1px solid #ddd;
+  border-radius: 8px 8px 8px 8px;
+  padding: 2px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  background-color: #f3f3f3;
+  font-size: 11px;
+}
+
+.btn {
+  border-radius: 19px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 29px;
+  font-size: 13px;
+  padding: 0px 10px 0px 11px;
+}
+
+.add-cart-btn {
+  background: #ffd814;
+  border: 1px solid #fcd200;
+  margin-top: 14px;
+}
+
+.buy-now-btn {
+  background: #ffa41c;
+  border: 1px solid #ff8f00;
+  margin-top: 8px;
+}
+
+.secure-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.secure-logo {
+}
+
+.secure-text {
+  margin-left: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #007185;
+}
+
+.secure-text a:hover {
+  color: #c7511f;
+}
+
+.ship-container {
+  margin-top: 13px;
+  display: flex;
+}
+
+.ship-container > div {
+  color: #565959;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.amazon {
+  margin-left: 10px;
+}
+
+.sold-container {
+  margin-top: 3px;
+  display: flex;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 6px;
+}
+
+.sold-container > div {
+  color: #565959;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.ecomm {
+  color: #007185;
+  margin-left: 28px;
+}
+
+.ecomm a {
+  cursor: pointer;
+  color: #007185;
+}
+
+.ecomm a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.details {
+  margin-top: 2px;
+}
+
+.details a {
+  color: #007185;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 16px;
+}
+.details a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.return-policy {
+  margin-top: 15px;
+}
+.return-policy a {
+  cursor: pointer;
+  color: #007185;
+}
+
+.return-policy a:hover {
+  color: #c7511f;
+}
+
+.support {
+  margin-top: 6px;
+}
+.support a {
+  cursor: pointer;
+  color: #007185;
+}
+
+.support a:hover {
+  color: #c7511f;
+}
+
+.gift-receipt {
+  margin-top: 2px;
+  margin-left: 3px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 8px;
+}
+
+.gift-receipt span {
+  /* margin-left: 5px; */
+  padding-left: 5px;
+}
+
+.gift-receipt input {
+  height: 13px;
+  width: 13px;
+  vertical-align: top;
+  position: relative;
+  bottom: -3px;
+}
+
+.add-list-btn {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 9px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+}
+.add-list-btn span {
+  background-color: transparent;
+  border: 0;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+}
+
+/******************************************** CAROUSEL ******************************/
+
+.related-products-container {
+  width: 1200px;
+  height: 370px;
+  /* background: #dbdbdb; */
+  font-family: "Amazon Ember";
+  font-weight: 400;
+}
+
+.related-products-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.related-products-header h1 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #cc6600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.page-counter {
+  margin-top: 8px;
+  color: #0f1111;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.sponsored {
+  font-size: 11px;
+  color: #555555;
+  line-height: 23px;
+}
+.sponsored a {
+  cursor: pointer;
+}
+
+.middle-container {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40px;
+  height: 284px;
+  margin-left: 46px;
+}
+
+.arrow-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40px;
+  height: 284px;
+  margin-right: 23px;
+}
+
+.arrow-box-right {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 34px;
+  border-radius: 8px;
+  border: 1px solid #adb1b8;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+.arrow-box-left {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 34px;
+  border-radius: 8px;
+  border: 1px solid #adb1b8;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+.arrow-right-sign {
+  background: url(/Assets/images/arrows.png) no-repeat -107px -8px;
+  width: 8px;
+  height: 13px;
+}
+
+.arrow-left-sign {
+  background: url(/Assets/images/arrows.png) no-repeat -124px -8px;
+  width: 9px;
+  height: 13px;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  width: 1075px;
+  height: 284px;
+}
+
+/******************** UTILITY  *****************/
+
+.product {
+  width: 160px;
+  height: 284px;
+  margin-left: 23px;
+  /* background: #febd69; */
+}
+
+.product-image {
+  cursor: pointer;
+  width: 160px;
+  height: 160px;
+}
+
+.product-description {
+  cursor: pointer;
+  color: #007185;
+  width: 160px;
+  height: 80px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product-description a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.stars-numbers {
+  display: flex;
+  cursor: pointer;
+  width: 160px;
+  height: 20px;
+}
+
+.stars-numbers a {
+  color: #007185;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 4px;
+}
+
+.price-prime {
+  cursor: pointer;
+  display: flex;
+  width: 160px;
+  height: 24px;
+}
+
+.price-prime span {
+  color: #b12704;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price-prime .prime-logo {
+  align-self: center;
+  background: url(/Assets/images/prime.png) no-repeat -138px -73px;
+  width: 42px;
+  height: 12px;
+  margin-left: 4px;
+}
+
+/* **************** SELF STYLE ************/
+
+.stars-illustration-one {
+  background: url(/Assets/images/starsandchecks.png) no-repeat -2px -42px;
+  width: 80px;
+  height: 15px;
+}
+
+.product-description-one {
+  height: 60px;
+}
+
+.stars-illustration-three {
+  background: url(/Assets/images/starsandchecks.png) no-repeat -2px -82px;
+  width: 80px;
+  height: 15px;
+}
+
+.stars-illustration-four {
+  background: url(/Assets/images/starsandchecks.png) no-repeat -2px -22px;
+  width: 80px;
+  height: 15px;
 }
